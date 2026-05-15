@@ -1,0 +1,130 @@
+# VOCABULARY DATA FILE
+# Format: ID|GERMAN|ARABIC|GERMAN_EXAMPLE|ARABIC_EXAMPLE|CATEGORY
+# Categories: car-interior, driving-actions, traffic-instructions, parking, emergency, examiner-phrases
+
+# Car Interior - داخل السيارة
+vocab-001|das Lenkrad|عجلة القيادة|Bitte fassen Sie das Lenkrad mit beiden Händen.|يرجى الإمساك بعجلة القيادة بكلتا يديك.
+vocab-002|der Sicherheitsgurt|حزام الأمان|Bitte legen Sie den Sicherheitsgurt an.|يرجى ارتداء حزام الأمان.
+vocab-003|der Rückspiegel|المرآة الخلفية|Schauen Sie in den Rückspiegel bevor Sie abbiegen.|انظر في المرآة الخلفية قبل الانعطاف.
+vocab-004|der Außenspiegel|مرآة جانبية|Stellen Sie den Außenspiegel ein.|اضبط المرآة الجانبية.
+vocab-005|das Gaspedal|دواسة الوقود|Treten Sie das Gaspedal langsam.|اضغط على دواسة الوقود ببطء.
+vocab-006|die Bremse|الفرامل|Treten Sie die Bremse leicht.|اضغط على الفرامل برفق.
+vocab-007|die Kupplung|دواسة القابض|Treten Sie die Kupplung ganz durch.|اضغط على دواسة القابض بالكامل.
+vocab-008|das Handschuhfach|درج القفازات|Das Handbuch ist im Handschuhfach.|الدليل في درج القفازات.
+vocab-009|der Blinker|إشارة الانعطاف|Setzen Sie den Blinker rechts.|أعطِ إشارة اليمين.
+vocab-010|die Hupe|البوق|Benutzen Sie die Hupe nur im Notfall.|استخدم البوق في حالات الطوارئ فقط.
+vocab-011|das Armaturenbrett|لوحة القيادة|Alle Anzeigen sind auf dem Armaturenbrett.|جميع المؤشرات على لوحة القيادة.
+vocab-012|der Tacho|عداد السرعة|Achten Sie auf den Tacho.|انتبه لعداد السرعة.
+vocab-013|der Tank|خزان الوقود|Der Tank ist fast leer.|خزان الوقود شبه فارغ.
+vocab-014|die Schaltung|ناقل الحركة|Schalten Sie in den zweiten Gang.|انتقل إلى الترس الثاني.
+vocab-015|der Schalthebel|ذراع تغيير السرعات|Legen Sie den Schalthebel in die Parkposition.|ضع ذراع تغيير السرعات في وضع الإيقاف.
+vocab-016|das Licht|الأضواء|Schalten Sie das Licht ein.|قم بتشغيل الأضواء.
+vocab-017|die Frontscheibe|الزجاج الأمامي|Die Frontscheibe ist beschlagen.|الزجاج الأمامي ضبابي.
+vocab-018|der Scheibenwischer|ماسحة الزجاج الأمامي|Schalten Sie die Scheibenwischer ein.|شغّل ماسحات الزجاج الأمامي.
+vocab-019|die Klimaanlage|مكيف الهواء|Stellen Sie die Klimaanlage ein.|اضبط مكيف الهواء.
+vocab-020|das Abblendlicht|الأضواء القريبة|Schalten Sie das Abblendlicht ein.|شغّل الأضواء القريبة.
+vocab-021|das Fernlicht|الأضواء البعيدة|Das Fernlicht blendet andere Fahrer.|الأضواء البعيدة تبهر السائقين الآخرين.
+vocab-022|die Warnblinkanlage|أضواء الخطر|Schalten Sie die Warnblinkanlage ein.|شغّل أضواء الخطر.
+vocab-023|das Lenkradschloss|قفل عجلة القيادة|Das Lenkradschloss ist aktiviert.|قفل عجلة القيادة مفعّل.
+vocab-024|der Kilometerzähler|عداد المسافة|Der Kilometerzähler zeigt 50.000 km.|عداد المسافة يظهر 50,000 كم.
+
+# Driving Actions - أفعال القيادة
+vocab-025|anfahren|الانطلاق|Bitte fahren Sie an.|يرجى الانطلاق.
+vocab-026|bremsen|الكبح|Bremsen Sie rechtzeitig.|أكبح في الوقت المناسب.
+vocab-027|abbiegen|الانعطاف|Biegen Sie hier rechts ab.|انعطف يميناً هنا.
+vocab-028|überholen|التجاوز|Überholen ist hier verboten.|التجاوز ممنوع هنا.
+vocab-029|einspuren|التخطي في المسار|Spuren Sie sich rechts ein.|الزم المسار الأيمن.
+vocab-030|wenden|الاستدارة|Bitte wenden Sie hier.|يرجى الاستدارة هنا.
+vocab-031|rückwärts fahren|القيادة للخلف|Fahren Sie langsam rückwärts.|قُد ببطء للخلف.
+vocab-032|einparken|الركن|Parken Sie hier ein.|ركّن السيارة هنا.
+vocab-033|ausparken|الخروج من موقف|Fahren Sie vorsichtig aus.|تحرك بحذر من موقف السيارة.
+vocab-034|beschleunigen|التسريع|Beschleunigen Sie auf 50 km/h.|سرّع حتى 50 كم/ساعة.
+vocab-035|verlangsamen|التباطؤ|Verlangsamen Sie die Geschwindigkeit.|خفض السرعة.
+vocab-036|anhalten|التوقف|Bitte halten Sie hier an.|يرجى التوقف هنا.
+vocab-037|losfahren|الانطلاق من مكان التوقف|Wann darf ich losfahren?|متى يمكنني الانطلاق؟
+vocab-038|durchfahren|المرور مستقيماً|Fahren Sie geradeaus durch.|استمر مستقيماً.
+vocab-039|abbiegen lassen|السماح بالانعطاف|Lassen Sie den Fußgänger zuerst.|دع الراجل يعبر أولاً.
+vocab-040|auffahren|الاقتراب بسرعة|Fahren Sie nicht so nah auf.|لا تقترب بهذه السرعة.
+vocab-041|spurwechseln|تغيير المسار|Bitte wechseln Sie die Spur.|يرجى تغيير المسار.
+vocab-042|rangieren|المناورة|Rangieren Sie vorsichtig.|قم بالمناورة بحذر.
+vocab-043|schalten|تغيير التروس|Schalten Sie rechtzeitig.|غيّر التروس في الوقت المناسب.
+vocab-044|kuppeln|استخدام القابض|Kuppeln Sie sanft.|استخدم القابض بلطف.
+
+# Traffic Instructions - تعليمات المرور
+vocab-045|Vorfahrt gewähren|أعطِ الأولوية|Sie müssen hier Vorfahrt gewähren.|يجب عليك إعطاء الأولوية هنا.
+vocab-046|Vorfahrt beachten|مراعاة حق الأولوية|Beachten Sie die Vorfahrt von rechts.|راعِ حق الأولوية من اليمين.
+vocab-047|die Ampel|إشارة المرور|Halten Sie an der roten Ampel.|قف عند الإشارة الحمراء.
+vocab-048|das Stoppschild|علامة قف|Halten Sie am Stoppschild an.|قف عند علامة قف.
+vocab-049|die Kreuzung|تقاطع الطرق|Fahren Sie vorsichtig an der Kreuzung.|قد بحذر عند التقاطع.
+vocab-050|der Kreisverkehr|دوّار|Fahren Sie in den Kreisverkehr ein.|ادخل إلى الدوّار.
+vocab-051|die Einbahnstraße|شارع ذو اتجاه واحد|Das ist eine Einbahnstraße.|هذا شارع ذو اتجاه واحد.
+vocab-052|die Vorfahrtstraße|شارع ذو أولوية|Das ist eine Vorfahrtstraße.|هذا شارع ذو أولوية.
+vocab-053|die Geschwindigkeit|السرعة|Halten Sie die Geschwindigkeitsbegrenzung ein.|التزم بحد السرعة.
+vocab-054|die Geschwindigkeitsbegrenzung|حد السرعة|Die Geschwindigkeitsbegrenzung beträgt 50 km/h.|حد السرعة هو 50 كم/ساعة.
+vocab-055|der Zebrastreifen|ممر المشاة|Halten Sie am Zebrastreifen an.|قف عند ممر المشاة.
+vocab-056|der Fußgänger|المشاة|Lassen Sie den Fußgänger passieren.|دع المشاة يعبرون.
+vocab-057|die Spur|المسار|Bleiben Sie auf Ihrer Spur.|الزم مسارك.
+vocab-058|der Fahrstreifen|حارة السير|Wechseln Sie den Fahrstreifen.|غيّر حارة السير.
+vocab-059|die Fahrbahn|مسار السيارة|Bleiben Sie auf der rechten Fahrbahn.|الزم المسار الأيمن.
+vocab-060|der Bürgersteig|رصيف المشاة|Parken Sie nicht auf dem Bürgersteig.|لا تركن على الرصيف.
+vocab-061|die Autobahn|الطريق السريع|Auf der Autobahn gibt es kein Tempolimit.|لا يوجد حد للسرعة على الطريق السريع في ألمانيا.
+vocab-062|die Bundesstraße|الطريق الاتحادي|Auf der Bundesstraße gilt 100 km/h.|السرعة المسموحة على الطريق الاتحادي 100 كم/ساعة.
+vocab-063|die Nebenstraße|الشارع الفرعي|Fahren Sie langsam in der Nebenstraße.|قد ببطء في الشارع الفرعي.
+vocab-064|der Gegenverkehr|السير المعاكس|Achten Sie auf den Gegenverkehr.|انتبه للسير المعاكس.
+
+# Parking - الركن
+vocab-065|das Parkverbot|ممنوع الوقوف|Hier ist ein Parkverbot.|الوقوف ممنوع هنا.
+vocab-066|das Halteverbot|ممنوع التوقف|Hier ist ein absolutes Halteverbot.|التوقف ممنوع تماماً هنا.
+vocab-067|der Parkplatz|موقف السيارات|Suchen Sie einen Parkplatz.|ابحث عن موقف للسيارات.
+vocab-068|die Parkbucht|خليج الانتظار|Parken Sie in der Parkbucht.|ركّن في خليج الانتظار.
+vocab-069|das Parkhaus|موقف طابقي|Das Parkhaus ist auf der rechten Seite.|الموقف الطابقي على اليمين.
+vocab-070|die Parklücke|فجوة الانتظار|Die Parklücke ist zu klein.|الفجوة صغيرة جداً للركن.
+vocab-071|der Parkschein|تذكرة الانتظار|Lösen Sie einen Parkschein.|احصل على تذكرة انتظار.
+vocab-072|die Parkuhr|ساعة الانتظار|Stellen Sie die Parkuhr ein.|اضبط ساعة الانتظار.
+vocab-073|das Einparken|الركن|Das Einparken ist hier erlaubt.|الركن مسموح هنا.
+vocab-074|rückwärts einparken|الركن للخلف|Parken Sie rückwärts ein.|ارجع للركن.
+vocab-075|seitlich einparken|الركن الجانبي|Parken Sie seitlich ein.|ارجع للركن الجانبي.
+vocab-076|die Parkbremse|فرامل الانتظار|Ziehen Sie die Parkbremse an.|اشدد فرامل الانتظار.
+vocab-077|die Haltelinie|خط التوقف|Halten Sie hinter der Haltelinie.|قف خلف خط التوقف.
+vocab-078|der Sicherheitsabstand|مسافة الأمان|Halten Sie den Sicherheitsabstand.|حافظ على مسافة الأمان.
+
+# Emergency Situations - حالات الطوارئ
+vocab-079|der Unfall|حادثة سير|Es ist ein Unfall passiert.|حدثت حادثة سير.
+vocab-080|die Panne|عطل في السيارة|Ich habe eine Panne.|سيارتي تعطلت.
+vocab-081|der Pannendienst|خدمة الطوارئ للسيارات|Rufen Sie den Pannendienst.|اتصل بخدمة الطوارئ.
+vocab-082|der Notruf|رقم الطوارئ|Der Notruf ist 110 oder 112.|رقم الطوارئ هو 110 أو 112.
+vocab-083|die Feuerwehr|الإطفاء|Rufen Sie die Feuerwehr.|اتصل بسيارة الإطفاء.
+vocab-084|der Krankenwagen|سيارة الإسعاف|Ein Krankenwagen kommt.|سيارة إسعاف قادمة.
+vocab-085|erste Hilfe|الإسعافات الأولية|Leisten Sie erste Hilfe.|قدّم الإسعافات الأولية.
+vocab-086|das Warndreieck|مثلث التحذير|Stellen Sie das Warndreieck auf.|ضع مثلث التحذير.
+vocab-087|die Warnweste|سترة التحذير|Ziehen Sie die Warnweste an.|ارتدِ سترة التحذير.
+vocab-088|der Feuerlöscher|طفاية الحريق|Ein Feuerlöscher ist im Kofferraum.|طفاية الحريق في صندوق السيارة.
+vocab-089|der Reifenwechsel|تغيير الإطار|Ich muss einen Reifen wechseln.|يجب أن أغيّر الإطار.
+vocab-090|der Verbandskasten|صندوق الإسعافات|Der Verbandskasten ist Pflicht.|صندوق الإسعافات إلزامي.
+vocab-091|abschleppen|السحب|Das Auto muss abgeschleppt werden.|يجب سحب السيارة.
+vocab-092|liegen bleiben|التوقف الاضطراري|Das Auto ist liegen geblieben.|توقفت السيارة اضطراراً.
+
+# Examiner Phrases - عبارات الممتحن
+vocab-093|Bitte fahren Sie los.|يرجى الانطلاق.|Bitte fahren Sie los, wenn Sie bereit sind.|يرجى الانطلاق عندما تكون مستعداً.
+vocab-094|Halten Sie hier an.|أوقف السيارة هنا.|Halten Sie bitte hier an der roten Ampel an.|أوقف السيارة عند الإشارة الحمراء.
+vocab-095|Biegen Sie links ab.|انعطف يساراً.|An der nächsten Kreuzung, biegen Sie links ab.|عند التقاطع القادم، انعطف يساراً.
+vocab-096|Biegen Sie rechts ab.|انعطف يميناً.|Biegen Sie an der Ampel rechts ab.|انعطف يميناً عند الإشارة.
+vocab-097|Fahren Sie geradeaus.|سِر مستقيماً.|Fahren Sie bis zur Kreuzung geradeaus.|سر مستقيماً حتى التقاطع.
+vocab-098|Fahren Sie vorsichtig.|قُد بحذر.|Fahren Sie vorsichtig, es ist glatt.|قُد بحذر، الطريق زلق.
+vocab-099|Beobachten Sie den Verkehr.|راقب حركة المرور.|Beobachten Sie immer den Verkehr.|راقب حركة المرور دائماً.
+vocab-100|Schauen Sie in den Spiegel.|انظر في المرآة.|Schauen Sie in den Rückspiegel.|انظر في المرآة الخلفية.
+vocab-101|Geben Sie Zeichen.|أعطِ إشارة.|Geben Sie rechtzeitig Zeichen.|أعطِ الإشارة في الوقت المناسب.
+vocab-102|Parken Sie hier ein.|ارجع للركن هنا.|Bitte parken Sie hier rechts ein.|يرجى الركن على اليمين هنا.
+vocab-103|Wenden Sie das Fahrzeug.|قم بالاستدارة.|Wenden Sie bitte das Fahrzeug.|يرجى الاستدارة.
+vocab-104|Verlassen Sie die Autobahn.|اخرج من الطريق السريع.|Verlassen Sie die Autobahn an der nächsten Ausfahrt.|اخرج من الطريق السريع عند المخرج القادم.
+vocab-105|Fahren Sie rechts ran.|قُد إلى اليمين.|Fahren Sie bitte rechts ran und halten Sie an.|يرجى القيادة إلى اليمين والتوقف.
+vocab-106|Zeigen Sie mir das Fahrzeugdokument.|أرني وثيقة السيارة.|Zeigen Sie mir bitte das Fahrzeugdokument.|يرجى إراءتي وثيقة السيارة.
+vocab-107|Sind Sie bereit?|هل أنت مستعد؟|Sind Sie bereit für die Prüfung?|هل أنت مستعد للامتحان؟
+vocab-108|Passen Sie auf!|انتبه!|Passen Sie auf den Fußgänger auf!|انتبه للمشاة!
+vocab-109|Gut gemacht!|أحسنت!|Das war gut gemacht.|لقد أجدت.
+vocab-110|Zu schnell!|سريع جداً!|Sie fahren zu schnell, verlangsamen Sie.|أنت تقود بسرعة كبيرة، خفّف السرعة.
+vocab-111|Zu langsam!|بطيء جداً!|Sie fahren zu langsam für die Straße.|أنت تقود ببطء شديد.
+vocab-112|Stopp!|قف!|Stopp! Rote Ampel!|قف! إشارة حمراء!
+vocab-113|Rückwärts bitte.|للخلف من فضلك.|Fahren Sie bitte rückwärts.|يرجى القيادة للخلف.
+vocab-114|Fahren Sie auf die Autobahn.|ادخل إلى الطريق السريع.|Fahren Sie auf die Autobahn auf.|ادخل إلى الطريق السريع.
+vocab-115|Verlassen Sie jetzt die Spur.|غادر المسار الآن.|Verlassen Sie jetzt die linke Spur.|غادر المسار الأيسر الآن.

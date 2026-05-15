@@ -1,0 +1,7 @@
+# PERSONAL NOTES DATA FILE
+# Format: ID|TITLE|CONTENT|CATEGORY|IS_SOLVED|CREATED_AT|UPDATED_AT
+# IS_SOLVED: true or false
+
+note-001|مفاهيم مربكة في الأولوية|كيف أتذكر متى يجب التوقف التام وعندما فقط أتباطأ؟ - Stoppschild = توقف تام - Vorfahrt gewähren = تباطؤ وإعطاء الأولوية|traffic-rules|false|2024-01-15|2024-01-15
+note-002|أرقام الطوارئ|110 = الشرطة (Polizei), 112 = الإطفاء والإسعاف (Feuerwehr/Rettungsdienst), 01802 22 22 22 = ADAC|emergency|true|2024-01-16|2024-01-20
+note-003|الفرق بين Parkverbot و Halteverbot|Parkverbot = ممنوع الانتظار لفترة طويلة (التوقف القصير مسموح حتى 3 دقائق), Halteverbot = ممنوع حتى التوقف الثانية واحدة|parking|false|2024-01-17|2024-01-17
