@@ -10,6 +10,7 @@ import { ProgressBar } from "@/components/ui/ProgressBar";
 import type { TrafficSign, TrafficSignCategory } from "@/types";
 import { Heart, CheckCircle, Grid3X3, List, AlertTriangle, Info, Ban, ArrowRight, Shield, Navigation } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { SIGN_WIKI_URLS } from "@/lib/sign-urls";
 import toast from "react-hot-toast";
 
 const CATEGORIES: { value: TrafficSignCategory | "all"; label: string; labelDe: string; icon: React.ElementType; color: string }[] = [
@@ -31,52 +32,16 @@ const CATEGORY_BADGE: Record<string, "default" | "success" | "warning" | "error"
   direction: "info",
 };
 
-// SVG sign shapes for visual representation
-function SignVisual({ sign }: { sign: TrafficSign }) {
-  const shapes: Record<string, React.ReactNode> = {
-    warning: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <polygon points="50,8 95,88 5,88" fill="#fff" stroke="#e53e3e" strokeWidth="4" />
-        <polygon points="50,15 90,82 10,82" fill="#ffd700" />
-        <text x="50" y="72" textAnchor="middle" fontSize="32" fontWeight="bold" fill="#1a1a1a">!</text>
-      </svg>
-    ),
-    regulatory: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <circle cx="50" cy="50" r="44" fill="#fff" stroke="#3182ce" strokeWidth="4" />
-        <circle cx="50" cy="50" r="36" fill="#ebf8ff" />
-        <text x="50" y="62" textAnchor="middle" fontSize="26" fontWeight="bold" fill="#2b6cb0">50</text>
-      </svg>
-    ),
-    information: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <rect x="5" y="5" width="90" height="90" rx="8" fill="#3182ce" />
-        <text x="50" y="68" textAnchor="middle" fontSize="52" fontWeight="bold" fill="#fff">i</text>
-      </svg>
-    ),
-    priority: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <rect x="20" y="20" width="60" height="60" fill="#ffd700" stroke="#e53e3e" strokeWidth="3" transform="rotate(45 50 50)" />
-      </svg>
-    ),
-    prohibition: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <circle cx="50" cy="50" r="44" fill="#fff" stroke="#e53e3e" strokeWidth="6" />
-        <line x1="20" y1="50" x2="80" y2="50" stroke="#e53e3e" strokeWidth="8" />
-      </svg>
-    ),
-    direction: (
-      <svg viewBox="0 0 100 100" className="w-full h-full">
-        <rect x="5" y="25" width="90" height="50" rx="6" fill="#3182ce" />
-        <polygon points="50,10 85,50 50,90 15,50" fill="#3182ce" />
-        <text x="50" y="58" textAnchor="middle" fontSize="28" fill="#fff">→</text>
-      </svg>
-    ),
-  };
-
+function SignVisual({ sign, size = "md" }: { sign: TrafficSign; size?: "sm" | "md" | "lg" }) {
+  const sizeClass = size === "lg" ? "w-32 h-32" : size === "sm" ? "w-10 h-10" : "w-16 h-16";
+  const src = SIGN_WIKI_URLS[sign.id] ?? `/signs/${sign.id}.svg`;
   return (
-    <div className="w-16 h-16 flex items-center justify-center">
-      {shapes[sign.category] || shapes.information}
+    <div className={`${sizeClass} flex items-center justify-center flex-shrink-0`}>
+      <img
+        src={src}
+        alt={sign.germanName}
+        className="w-full h-full object-contain"
+      />
     </div>
   );
 }
@@ -278,7 +243,7 @@ export default function SignsPage() {
           {selected && (
             <div className="space-y-5">
               <div className="flex items-center gap-4">
-                <SignVisual sign={selected} />
+                <SignVisual sign={selected} size="lg" />
                 <div>
                   <p className="text-2xl font-bold text-blue-600 dark:text-blue-400 arabic-text">{selected.arabicName}</p>
                   <Badge variant={CATEGORY_BADGE[selected.category] || "default"}>

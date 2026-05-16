@@ -1,0 +1,55 @@
+// Official German traffic sign images from Wikimedia Commons (public domain)
+// thumb.php generates thumbnails on demand — no fragile hash paths needed
+const W = "https://commons.wikimedia.org/w/thumb.php";
+
+function t(file: string, px = 250): string {
+  return `${W}?f=${file}&width=${px}`;
+}
+
+export const SIGN_WIKI_URLS: Record<string, string> = {
+  "sign-001": t("Zeichen_205_-_Vorfahrt_gew%C3%A4hren%21_StVO_1970.svg"),
+  "sign-002": t("Zeichen_206_-_Halt%21_Vorfahrt_gew%C3%A4hren%21_StVO_2017.svg"),
+  "sign-003": t("Zeichen_131_-_Lichtzeichenanlage%2C_StVO_1970.svg"),
+  "sign-004": t("Zeichen_274-50_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg"),
+  "sign-005": t("Zeichen_276_-_%C3%9Cberholverbot_f%C3%BCr_Kraftfahrzeuge_aller_Art%2C_StVO_1992.svg"),
+  "sign-006": t("Zeichen_267_-_Verbot_der_Einfahrt%2C_StVO_1970.svg"),
+  "sign-007": t("Zeichen_134-10_-_Fu%C3%9Fg%C3%A4nger%C3%BCberweg%2C_Aufstellung_rechts%2C_StVO_1992.svg"),
+  "sign-008": t("Zeichen_123_-_Baustelle%2C_StVO_1992.svg"),
+  "sign-009": t("Zeichen_103-10_-_Kurve_%28links%29%2C_StVO_1992.svg"),
+  "sign-010": t("Zeichen_306_-_Vorfahrtstra%C3%9Fe%2C_StVO_1970.svg"),
+  "sign-011": t("Zeichen_108-10_-_Gef%C3%A4lle%2C_StVO_2017.svg"),
+  "sign-012": t("Zeichen_254_-_Verbot_f%C3%BCr_Radfahrer%2C_StVO_1992.svg"),
+  "sign-013": t("Zeichen_220-10_Einbahnstra%C3%9Fe_%28linksweisend%29%2C_StVO_2009.svg"),
+  "sign-014": t("Zeichen_286_-_Eingeschr%C3%A4nktes_Halteverbot%2C_StVO_1970.svg"),
+  "sign-015": t("Zeichen_283_-_Haltverbot%2C_StVO_1970.svg"),
+  "sign-016": t("Zeichen_237_-_Sonderweg_Radfahrer%2C_StVO_1992.svg"),
+  "sign-017": t("Zeichen_325.1_-_Beginn_eines_verkehrsberuhigten_Bereichs%2C_StVO_2009.svg"),
+  "sign-018": t("Zeichen_314-50_-_Parkplatz%2C_StVO_2013.svg"),
+  "sign-019": t("Zeichen_113_-_Gl%C3%A4ttegefahr%2C_StVO_1988.svg"),
+  "sign-021": t("Zeichen_142-10_-_Wildwechsel%2C_Aufstellung_rechts%2C_StVO_1992.svg"),
+  "sign-022": t("Zeichen_330.1_-_Autobahn%2C_StVO_2013.svg"),
+  "sign-023": t("Zeichen_333_-_Pfeilschild_-_Ausfahrt_von_der_Autobahn%2C_StVO_1992.svg"),
+  "sign-024": t("Zeichen_327_-_Tunnel%2C_StVO_2006.svg"),
+  "sign-025": t("Zeichen_223.1_-_Seitenstreifen_befahren%2C_StVO_2001.svg"),
+  "sign-026": t("Zeichen_209-10_-_Vorgeschriebene_Fahrtrichtung_%28links%29%2C_StVO_1992.svg"),
+  "sign-027": t("Zeichen_264_-_Verbot_f%C3%BCr_Fahrzeuge_%C3%BCber_angegebene_tats%C3%A4chliche_Breite%2C_StVO_1992.svg"),
+  "sign-028": t("Zeichen_265_-_Verbot_f%C3%BCr_Fahrzeuge%2C_deren_tats%C3%A4chliche_H%C3%B6he_%C3%BCber_alles_%C3%BCber_angegebenes_Ma%C3%9F%2C_StVO_1992.svg"),
+  "sign-029": t("Zeichen_253_-_Verbot_f%C3%BCr_Kraftfahrzeuge_mit_einem_zul%C3%A4ssigen_Gesamtgewicht_%C3%BCber_3%2C5_t%2C_StVO_1992.svg"),
+  "sign-030": t("Zeichen_274-30_-_Zul%C3%A4ssige_H%C3%B6chstgeschwindigkeit%2C_StVO_2017.svg"),
+  "sign-031": t("Zeichen_274.1_-_Beginn_einer_Tempo_30-Zone%2C_StVO_2013.svg"),
+  "sign-032": t("Zeichen_454-20_%E2%80%93_Umleitungswegweiser_%28rechtsweisend%29%2C_StVO_1992.svg"),
+  "sign-033": t("Zeichen_136-10_-_Kinder%2C_Aufstellung_rechts%2C_StVO_1992.svg"),
+  "sign-034": t("Zeichen_151_-_Unbeschrankter_Bahn%C3%BCbergang%2C_StVO_1992.svg"),
+  "sign-036": t("Zeichen_380-52_-_Richtgeschwindigkeit_80_km-h%2C_StVO_1992.svg"),
+  "sign-039": t("Zeichen_365-52_-_Tankstelle%2C_StVO_2013.svg"),
+  "sign-040": t("Zeichen_358_-_Erste_Hilfe%2C_StVO_1992.svg"),
+  "sign-042": t("Zeichen_501-20.svg"),
+  "sign-043": t("Zeichen_112_%E2%80%93_Unebene_Fahrbahn%2C_StVO_1970.svg"),
+  "sign-044": t("Zeichen_138-10_-_Radverkehr%2C_StVO_2013.svg"),
+  "sign-045": t("Zeichen_307_-_Ende_der_Vorfahrtstra%C3%9Fe%2C_StVO_1981.svg"),
+  "sign-046": t("Zeichen_330.2_-_Ende_der_Autobahn%2C_StVO_2013.svg"),
+  "sign-047": t("Zeichen_358_-_Erste_Hilfe%2C_StVO_1992.svg"),
+  "sign-048": t("Zeichen_102_-_Kreuzung_oder_Einm%C3%BCndung_mit_Vorfahrt_von_rechts%2C_StVO_1970.svg"),
+  "sign-049": t("Zeichen_105-10_-_Doppelkurve_%28zun%C3%A4chst_links%29%2C_StVO_1992.svg"),
+  "sign-050": t("Zeichen_282_-_Ende_s%C3%A4mtlicher_Streckenverbote%2C_StVO_1970.svg"),
+};
